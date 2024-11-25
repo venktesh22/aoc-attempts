@@ -201,7 +201,7 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      | First part was a simple sum. However, `itertools` saved the logic for part 2. Probably there might be more efficient ways!                                |
 | 2   | ❌      | ❌      |                                 |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
