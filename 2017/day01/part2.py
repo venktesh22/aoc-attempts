@@ -13,8 +13,16 @@ def solve_part2(input_data):
     Returns:
         Any: The solution to Part 2.
     """
+    ans = 0
+    for i in range(len(input_data)):
+        if i< len(input_data)/2:
+            if input_data[i]==input_data[i+int(len(input_data)/2)]:
+                ans += int(input_data[i])
+        else:
+            if input_data[i]==input_data[ i + int(len(input_data)/2) - len(input_data)]:
+                ans += int(input_data[i])
     # Add your solution logic here
-    return None
+    return ans
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))

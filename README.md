@@ -233,7 +233,7 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      | List indexing magic. Could there be a better logic for cyclicity?                               |
 | 2   | ❌      | ❌      |                                 |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
