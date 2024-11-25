@@ -1,0 +1,26 @@
+# Ignore environment files
+.env
+
+# Ignore test files
+**/test_*.py
+**/*_test.py
+
+# Ignore virtual environment folder
+aoc/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore log files
+*.log
+
+# Ignore IDE and editor settings
+.vscode/
+*.swp
+
+# Ignore Mac-specific files
+.DS_Store
+
+**/__init__.py
