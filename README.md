@@ -5,11 +5,12 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 ---
 
 ## Advent of Code 2024
+These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ✅      | ✅      | Learned about sliding window sums. |
-| 2   | ✅      | ✅      | Used Dijkstra's algorithm.         |
+| 1   | ❌      | ❌      |                               |
+| 2   | ❌      | ❌      | Used Dijkstra's algorithm.         |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                                 |
 | ... | ...    | ...    | ...                             |
@@ -97,7 +98,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
+| 1   | ✅      | ❌      |   Found a way to track coordinates. Still pondering how to estimate the crossing point!                              |
 | 2   | ❌      | ❌      |                                 |
 | 3   | ❌      | ❌      |                                 |
 | ... | ...    | ...    | ...                             |
@@ -108,8 +109,8 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ✅      | ✅      |  Regex for the win.            |
-| 2   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      |  Character loops for the win.            |
+| 2   | ✅      | ✅      |  Lambda functions and Regex help simplify.                               |
 | 3   | ❌      | ❌      |                                 |
 | ... | ...    | ...    | ...                             |
 
