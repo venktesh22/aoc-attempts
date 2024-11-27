@@ -105,9 +105,9 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
-| 2   | ❌      | ❌      |                                 |
-| 3   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      | Take difference of lists and count the positives. Use `numpy` though.                    |
+| 2   | ✅      | ✅      | Simple logic after input splitting.                                |
+| 3   | ✅      | ✅      |  (1) Good use of counters, zip to swap columns as rows, reversed, and boolean logic, (2) Good use of functions with changing list copies.                               |
 | 4   | ❌      | ❌      |                               |
 | 5   | ❌      | ❌      |                               |
 | 6   | ❌      | ❌      |                               |
