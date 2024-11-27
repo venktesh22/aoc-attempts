@@ -137,7 +137,7 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ✅      | ✅      |  For now a blind nested loops to a tuple of numbers `T` such that: `T ⊆ numbers`, `|T| = k` and `sum(T) = d`, though recursion can work. |
+| 1   | ✅      | ✅      |  For now a blind nested loops to a tuple of numbers `T` such that: `T ⊆ numbers` `|T| = k` and `sum(T) = d` though recursion can work. |
 | 2   | ✅      | ✅      |  One line input splitting; Counter and xor operations.                               |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
