@@ -137,8 +137,8 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
-| 2   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      |  For now a blind nested loops to a tuple of numbers `T` such that: `T ⊆ numbers`, `|T| = k` and `sum(T) = d`, though recursion can work. |
+| 2   | ✅      | ✅      |  One line input splitting; Counter and xor operations.                               |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
 | 5   | ❌      | ❌      |                               |
@@ -169,8 +169,8 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
-| 2   | ❌      | ❌      |                                 |
+| 1   | ✅      | ✅      |  Recursive function with a twist!                               |
+| 2   | ✅      | ✅      |  List indexing carefully executed. There might be a smarter approach for part 2 than brute-force checking all nouns and verbs, but oh well. It took less than a second on my machine!                               |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
 | 5   | ❌      | ❌      |                               |
