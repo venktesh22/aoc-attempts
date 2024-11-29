@@ -109,8 +109,8 @@ These puzzles are to be released.
 | 2   | ✅      | ✅      | Simple logic after input splitting.                                |
 | 3   | ✅      | ✅      |  (1) Good use of counters, zip to swap columns as rows, reversed, and boolean logic, (2) Good use of functions with changing list copies.                               |
 | 4   | ✅      | ✅      |   Bingo analysis                            |
-| 5   | ❌      | ❌      |                               |
-| 6   | ❌      | ❌      |                               |
+| 5   | ✅      | ✅      |   Draw lines and their meeting points                            |
+| 6   | ✅      | ✅      | Recursion and LRU cache for the win! 🎉                               |
 | 7   | ❌      | ❌      |                               |
 | 8   | ❌      | ❌      |                               |
 | 9   | ❌      | ❌      |                               |
