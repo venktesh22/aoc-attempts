@@ -38,6 +38,7 @@ These puzzles are to be released.
 ---
 
 ## Advent of Code 2023
+I have solved some of these, but yet to include the attempts on Github.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
