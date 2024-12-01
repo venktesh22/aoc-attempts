@@ -9,7 +9,7 @@ These puzzles are to be released.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                               |
+| 1   | ✅      | ✅      | Lists and counters for the win!                               |
 | 2   | ❌      | ❌      |         |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                                 |
@@ -38,7 +38,7 @@ These puzzles are to be released.
 ---
 
 ## Advent of Code 2023
-I have solved some of these, but yet to include the attempts on Github.
+I have solved some of these in a different notebook, but yet to include the attempts on Github.
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
