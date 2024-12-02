@@ -10,7 +10,7 @@ These puzzles are to be released.
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
 | 1   | ✅      | ✅      | Lists and counters for the win!                               |
-| 2   | ❌      | ❌      |         |
+| 2   | ✅      | ✅      | Lists and `np.diff` operations        |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                                 |
 | 5   | ❌      | ❌      |                               |
