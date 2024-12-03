@@ -11,7 +11,7 @@ These puzzles are to be released.
 |-----|--------|--------|---------------------------------|
 | 1   | ✅      | ✅      | Lists and counters for the win!                               |
 | 2   | ✅      | ✅      | Lists and `np.diff` operations        |
-| 3   | ❌      | ❌      |                                 |
+| 3   | ✅      | ✅      | `re.finditer()` and `re.findall()` worked like magic. Could the part2 code be made shorter? Perhaps a task for the future.                                |
 | 4   | ❌      | ❌      |                                 |
 | 5   | ❌      | ❌      |                               |
 | 6   | ❌      | ❌      |                               |
