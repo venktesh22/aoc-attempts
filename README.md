@@ -12,7 +12,7 @@ These puzzles are to be released.
 | 1   | ✅      | ✅      | Lists and counters for the win!                               |
 | 2   | ✅      | ✅      | Lists and `np.diff` operations        |
 | 3   | ✅      | ✅      | `re.finditer()` and `re.findall()` worked like magic. Could the part2 code be made shorter? Perhaps a task for the future.                                |
-| 4   | ❌      | ❌      |                                 |
+| 4   | ✅      | ✅      | Search for substring (`XMAS`) in a grid in all directions. Boundary check for indices.                               |
 | 5   | ❌      | ❌      |                               |
 | 6   | ❌      | ❌      |                               |
 | 7   | ❌      | ❌      |                               |
@@ -140,7 +140,7 @@ I have solved some of these in a different notebook, but yet to include the atte
 |-----|--------|--------|---------------------------------|
 | 1   | ✅      | ✅      |  For now a blind nested loops to a tuple of numbers `T` such that: `T \subseteq numbers`,`mod(T) = k`, and `sum(T) = d` though recursion can work. |
 | 2   | ✅      | ✅      |  One line input splitting; Counter and xor operations.                               |
-| 3   | ❌      | ❌      |                                 |
+| 3   | ✅      | ✅      |  Cycle through column indices using `itertools`.                               |
 | 4   | ❌      | ❌      |                               |
 | 5   | ❌      | ❌      |                               |
 | 6   | ❌      | ❌      |                               |
