@@ -13,7 +13,7 @@ These puzzles are to be released.
 | 2   | ✅      | ✅      | Lists and `np.diff` operations        |
 | 3   | ✅      | ✅      | `re.finditer()` and `re.findall()` worked like magic. Could the part2 code be made shorter? Perhaps a task for the future.                                |
 | 4   | ✅      | ✅      | Search for substring (`XMAS`) in a grid in all directions. Boundary check for indices.                               |
-| 5   | ❌      | ❌      |                               |
+| 5   | ✅      | ✅      | Custom iterative sorting mechanism was needed. Topological sorting failed due to cycles and exhaustive permutation for part 2 failed due to scalability issues. What a way to learn how sorting operations work 😅!                          |
 | 6   | ❌      | ❌      |                               |
 | 7   | ❌      | ❌      |                               |
 | 8   | ❌      | ❌      |                               |
