@@ -18,7 +18,7 @@ def solve_part2(input_data):
     x ,y, direction = start_x, start_y, '^'
 
     def is_valid(x, y):
-        return 0 <= x < rows and 0 <= y < cols
+        return 0 <= x < cols and 0 <= y < rows
     
     move = {
         "^": (0,-1),  
