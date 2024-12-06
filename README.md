@@ -14,7 +14,7 @@ These puzzles are to be released.
 | 3   | ✅      | ✅      | `re.finditer()` and `re.findall()` worked like magic. Could the part2 code be made shorter? Perhaps a task for the future.                                |
 | 4   | ✅      | ✅      | Search for substring (`XMAS`) in a grid in all directions. Boundary check for indices.                               |
 | 5   | ✅      | ✅      | Custom iterative sorting mechanism was needed. Topological sorting failed due to cycles and exhaustive permutation for part 2 failed due to scalability issues. What a way to learn how sorting operations work 😅!                          |
-| 6   | ❌      | ❌      |                               |
+| 6   | ✅      | ✅      |  Solving snake-style game on the grid. Part 2 took 50 seconds to brute-force through all alternatives (perhaps there are way to avoid duplicate searches?). Key lessons: using `pretty_print_grids()` (in `part2.py`) aided debugging, and storing the grid as a list of character lists proved more efficient.                             |
 | 7   | ❌      | ❌      |                               |
 | 8   | ❌      | ❌      |                               |
 | 9   | ❌      | ❌      |                               |
