@@ -14,7 +14,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 4   | ✅      | ✅      | Search for substring (`XMAS`) in a grid in all directions. Boundary check for indices.                               |
 | 5   | ✅      | ✅      | Custom iterative sorting mechanism was needed. Topological sorting failed due to cycles and exhaustive permutation for part 2 failed due to scalability issues. What a way to learn how sorting operations work 😅!                          |
 | 6   | ✅      | ✅      |  Solving bouncing-board-snake-style game on the grid. Part 2 took 50 seconds to brute-force through all alternatives (perhaps there are ways to avoid duplicate searches?). Key lessons: using `pretty_print_grids()` (in `part2.py`) aided debugging, and storing the grid as a list of character lists proved more efficient.                             |
-| 7   | ❌      | ❌      |                               |
+| 7   | ✅      | ✅      | `itertools.product()` did the magic of generating all outcomes from the toss of the operator "coin" being two numbers. Took 14.5 seconds for part2, which could be improved!                               |
 | 8   | ❌      | ❌      |                               |
 | 9   | ❌      | ❌      |                               |
 | 10  | ❌      | ❌      |                               |
@@ -234,7 +234,7 @@ I have solved some of these in a different notebook, but yet to include the atte
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
 | 1   | ✅      | ✅      | List indexing magic. Could there be a better logic for cyclicity?                               |
-| 2   | ❌      | ❌      |                                 |
+| 2   | ✅      | ✅      | List combinatorics. Helpful tools: `itertools` combination and `re.findall()`                              |
 | 3   | ❌      | ❌      |                                 |
 | 4   | ❌      | ❌      |                               |
 | 5   | ❌      | ❌      |                               |
