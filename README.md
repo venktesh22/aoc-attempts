@@ -16,7 +16,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 6   | ✅      | ✅      |  Solving bouncing-board-snake-style game on the grid. Part 2 took 50 seconds to brute-force through all alternatives (perhaps there are ways to avoid duplicate searches?). Key lessons: using `pretty_print_grids()` (in `part2.py`) aided debugging, and storing the grid as a list of character lists proved more efficient.                             |
 | 7   | ✅      | ✅      | `itertools.product()` did the magic of generating all outcomes from the toss of the operator "coin" being two numbers. Took 14.5 seconds for part2, which could be improved!                               |
 | 8   | ✅      | ✅      | Goal was to find linear alignments of points in a grid. Logic--first collect the coordinates of each unique character. Then use `itertools.combinations` and coordinate geometry to generate line segment points and extends them in both directions until the grid boundary is reached.  Fun puzzle!                            |
-| 9   | ❌      | ❌      |                               |
+| 9   | ✅      | ✅      | Goal was to remove white spaces by pushing file IDs from the end to the front. Somewhat long logic using careful edits to list start and end indices.                            |
 | 10  | ❌      | ❌      |                               |
 | 11  | ❌      | ❌      |                               |
 | 12  | ❌      | ❌      |                               |
