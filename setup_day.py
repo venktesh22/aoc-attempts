@@ -3,8 +3,8 @@ import datetime
 
 def setup_day(day=None, year=None):
     """
-    Creates the folder and files for the specified day and year, including part1.py,
-    part2.py, input.txt, and test_dayXX.py. Defaults to today's day and year if not specified.
+    Creates the folder and files for the specified day and year, including solution.py,
+    input.txt, and test_dayXX.py. Defaults to today's day and year if not specified.
     """
     # Determine the year
     if year is None:
@@ -43,8 +43,7 @@ def setup_day(day=None, year=None):
 
     # File paths
     input_file = os.path.join(day_folder, "input.txt")
-    part1_file = os.path.join(day_folder, "part1.py")
-    part2_file = os.path.join(day_folder, "part2.py")
+    solution_file = os.path.join(day_folder, "solution.py")
     test_file = os.path.join(day_folder, f"test_day{day:02d}.py")
 
     # Create input.txt
@@ -52,11 +51,15 @@ def setup_day(day=None, year=None):
         with open(input_file, "w") as f:
             f.write("")  # Empty file for input
 
-    # Create part1.py
-    if not os.path.exists(part1_file):
-        with open(part1_file, "w") as f:
-            f.write(f"""from utils.file_io import read_input
-from utils.timer import timer  # Importing the timer wrapper
+    # Create solution.py
+    if not os.path.exists(solution_file):
+        with open(solution_file, "w") as f:
+            f.write(f"""import re
+import numpy as np
+from collections import Counter
+from itertools import accumulate, product, permutations, combinations
+from utils.file_io import read_input
+from utils.timer import timer
 import os
 
 @timer
@@ -72,19 +75,6 @@ def solve_part1(input_data):
     \"\"\"
     # Add your solution logic here
     return None
-
-if __name__ == "__main__":
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_data = read_input("input.txt", base_path=script_dir)
-    print("Solution to Part 1:", solve_part1(input_data))
-""")
-
-    # Create part2.py
-    if not os.path.exists(part2_file):
-        with open(part2_file, "w") as f:
-            f.write(f"""from utils.file_io import read_input
-from utils.timer import timer  # Importing the timer wrapper
-import os
 
 @timer
 def solve_part2(input_data):
@@ -103,6 +93,7 @@ def solve_part2(input_data):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     input_data = read_input("input.txt", base_path=script_dir)
+    print("Solution to Part 1:", solve_part1(input_data))
     print("Solution to Part 2:", solve_part2(input_data))
 """)
 
@@ -110,8 +101,7 @@ if __name__ == "__main__":
     if not os.path.exists(test_file):
         with open(test_file, "w") as f:
             f.write(f"""import pytest
-from day{day:02d}.part1 import solve_part1
-from day{day:02d}.part2 import solve_part2
+from day{day:02d}.solution import solve_part1, solve_part2
 import os
 
 def test_solve_part1():
