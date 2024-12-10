@@ -17,7 +17,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 7   | ✅      | ✅      | `itertools.product()` did the magic of generating all outcomes from the toss of the operator "coin" being two numbers. Took 14.5 seconds for part2, which could be improved!                               |
 | 8   | ✅      | ✅      | Goal was to find linear alignments of points in a grid. Logic--first collect the coordinates of each unique character. Then use `itertools.combinations` and coordinate geometry to generate line segment points and extends them in both directions until the grid boundary is reached.  Fun puzzle!                            |
 | 9   | ✅      | ✅      | Goal was to remove white spaces by pushing file IDs from the end to the front. Somewhat long logic using careful edits to list start and end indices.                            |
-| 10  | ❌      | ❌      |                               |
+| 10  | ✅      | ✅      | Goal was to *count the number of paths* in a topologically sorted network with a set of start and end points. I struggled with choosing the right graph algorithm till realizing the network has a topological order.                           |
 | 11  | ❌      | ❌      |                               |
 | 12  | ❌      | ❌      |                               |
 | 13  | ❌      | ❌      |                               |
