@@ -23,7 +23,11 @@ __pycache__/
 # Ignore Mac-specific files
 .DS_Store
 
-# Ignore egg-info
-*egg-info/
+# Ignore egg-info directories
+*.egg-info/
+**/*.egg-info/
+
+# Ignore input.txt files in any folder
+**/input.txt
 
 **/__init__.py
