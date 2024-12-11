@@ -18,7 +18,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 8   | ✅      | ✅      | Goal was to find linear alignments of points in a grid. Logic--first collect the coordinates of each unique character. Then use `itertools.combinations` and coordinate geometry to generate line segment points and extends them in both directions until the grid boundary is reached.  Fun puzzle!                            |
 | 9   | ✅      | ✅      | Goal was to remove white spaces by pushing file IDs from the end to the front. Somewhat long logic using careful edits to list start and end indices.                            |
 | 10  | ✅      | ✅      | Goal was to *count the number of paths* in a topologically sorted network with a set of start and end points. I struggled with choosing the right graph algorithm till realizing the network has a topological order.                           |
-| 11  | ❌      | ❌      |                               |
+| 11  | ✅      | ✅      | Goal: Apply a defined rule to manipulate numbered stones for a set number of "blinks" (iterations). For 25 blinks, simple recursion worked well; for 75 blinks, using `lru_cache` was more efficient. The key insight is that we only need the final count of stones, not their specific values.                               |
 | 12  | ❌      | ❌      |                               |
 | 13  | ❌      | ❌      |                               |
 | 14  | ❌      | ❌      |                               |
@@ -73,10 +73,10 @@ I have solved some of these in a different notebook, but yet to include the atte
 
 | Day | Part 1 | Part 2 | Notes                           |
 |-----|--------|--------|---------------------------------|
-| 1   | ❌      | ❌      |                                 |
-| 2   | ❌      | ❌      |                                 |
-| 3   | ❌      | ❌      |                                 |
-| 4   | ❌      | ❌      |                               |
+| 1   | ✅      | ✅      | Addition over lists.                                |
+| 2   | ✅      | ✅      | Rock-paper-scissor!                                |
+| 3   | ✅      | ✅      | Learned about `ord()` string function.                                |
+| 4   | ✅      | ✅      | Finding overlap of two lists                              |
 | 5   | ❌      | ❌      |                               |
 | 6   | ❌      | ❌      |                               |
 | 7   | ❌      | ❌      |                               |
