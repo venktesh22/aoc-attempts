@@ -19,8 +19,8 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 9   | ✅      | ✅      | Goal was to remove white spaces by pushing file IDs from the end to the front. Somewhat long logic using careful edits to list start and end indices.                            |
 | 10  | ✅      | ✅      | Goal was to *count the number of paths* in a topologically sorted network with a set of start and end points. I struggled with choosing the right graph algorithm till realizing the network has a topological order.                           |
 | 11  | ✅      | ✅      | Goal: Apply a defined rule to manipulate numbered stones for a set number of "blinks" (iterations). For 25 blinks, simple recursion worked well; for 75 blinks, using `lru_cache` was more efficient. The key insight is that we only need the final count of stones, not their specific values.                               |
-| 12  | ❌      | ❌      |                               |
-| 13  | ❌      | ❌      |                               |
+| 12  | ✅      | ❌      | Still working on part 2. Perhaps some good way to find connected components in a graph!                              |
+| 13  | ✅      | ✅      | Use Cramer's rule to solve two linear equations. A fun one!                              |
 | 14  | ❌      | ❌      |                               |
 | 15  | ❌      | ❌      |                               |
 | 16  | ❌      | ❌      |                               |
