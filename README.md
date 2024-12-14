@@ -21,7 +21,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 11  | ✅      | ✅      | Goal: Apply a defined rule to manipulate numbered stones for a set number of "blinks" (iterations). For 25 blinks, simple recursion worked well; for 75 blinks, using `lru_cache` was more efficient. The key insight is that we only need the final count of stones, not their specific values.                               |
 | 12  | ✅      | ❌      | Still working on part 2. Perhaps some good way to find connected components in a graph!                              |
 | 13  | ✅      | ✅      | Use Cramer's rule to solve two linear equations. A fun one!                              |
-| 14  | ❌      | ❌      |                               |
+| 14  | ✅      | ✅      | Part 1 was a recursive update to x and y coordinates. Part 2 felt like brute force to find the tree-looking easter egg. There is fortunately a pattern where x and y coordinates update independently and repeat in vertical and horizontal grouped patterns after every max_col and max_row timesteps.                             |
 | 15  | ❌      | ❌      |                               |
 | 16  | ❌      | ❌      |                               |
 | 17  | ❌      | ❌      |                               |
