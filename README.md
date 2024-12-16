@@ -22,7 +22,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 12  | ✅      | ❌      | Still working on part 2. Perhaps some good way to find connected components in a graph!                              |
 | 13  | ✅      | ✅      | Use Cramer's rule to solve two linear equations. A fun one!                              |
 | 14  | ✅      | ✅      | Part 1 was a recursive update to x and y coordinates. Part 2 felt like brute force to find the tree-looking easter egg. There is fortunately a pattern where x and y coordinates update independently and repeat in vertical and horizontal grouped patterns after every max_col and max_row timesteps.                             |
-| 15  | ❌      | ❌      |                               |
+| 15  | ✅      | ❌      |  Part 1 was a reasonable move logic. Part 2 is involved. It seems like a BFS at every move to determine which blocks will move and then updating it. I wonder if `networkx` can solve it? A task for the future self.                             |
 | 16  | ❌      | ❌      |                               |
 | 17  | ❌      | ❌      |                               |
 | 18  | ❌      | ❌      |                               |
