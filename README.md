@@ -24,7 +24,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 14  | ✅      | ✅      | Part 1 was a recursive update to x and y coordinates. Part 2 felt like brute force to find the tree-looking easter egg. There is fortunately a pattern where x and y coordinates update independently and repeat in vertical and horizontal grouped patterns after every max_col and max_row timesteps.                             |
 | 15  | ✅      | ❌      |  Part 1 was a reasonable move logic. Part 2 is involved. It seems like a BFS at every move to determine which blocks will move and then updating it. I wonder if `networkx` can solve it? A task for the future self.                             |
 | 16  | ❌      | ❌      |                               |
-| 17  | ❌      | ❌      |                               |
+| 17  | ✅      | ❌      | Part 1 was simple if-else. However, I didn't expect output to be reported as a string and wasted a lot of time debugging. Part 2 seems harder; what would be a smart logic that builds on the repetition pattern?                              |
 | 18  | ❌      | ❌      |                               |
 | 19  | ❌      | ❌      |                               |
 | 20  | ❌      | ❌      |                               |
