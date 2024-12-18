@@ -19,13 +19,13 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 9   | ✅      | ✅      | Goal was to remove white spaces by pushing file IDs from the end to the front. Somewhat long logic using careful edits to list start and end indices.                            |
 | 10  | ✅      | ✅      | Goal was to *count the number of paths* in a topologically sorted network with a set of start and end points. I struggled with choosing the right graph algorithm till realizing the network has a topological order.                           |
 | 11  | ✅      | ✅      | Goal: Apply a defined rule to manipulate numbered stones for a set number of "blinks" (iterations). For 25 blinks, simple recursion worked well; for 75 blinks, using `lru_cache` was more efficient. The key insight is that we only need the final count of stones, not their specific values.                               |
-| 12  | ✅      | ❌      | Still working on part 2. Perhaps some good way to find connected components in a graph!                              |
+| 12  | ✅      | ✅      | Part 1 solved using `networkx.connected_components()`. Part 2 counting of sides was done using the logic by couting all top, bottom, left, and right, edges of a region.                              |
 | 13  | ✅      | ✅      | Use Cramer's rule to solve two linear equations. A fun one!                              |
 | 14  | ✅      | ✅      | Part 1 was a recursive update to x and y coordinates. Part 2 felt like brute force to find the tree-looking easter egg. There is fortunately a pattern where x and y coordinates update independently and repeat in vertical and horizontal grouped patterns after every max_col and max_row timesteps.                             |
 | 15  | ✅      | ❌      |  Part 1 was a reasonable move logic. Part 2 is involved. It seems like a BFS at every move to determine which blocks will move and then updating it. I wonder if `networkx` can solve it? A task for the future self.                             |
-| 16  | ❌      | ❌      |                               |
+| 16  | ✅      | ✅      | I used the logic of converting the grid into a `networkx` DiGraph, and then converting to another line graph (using `nx.line_graph()`) where weights of edges were carefully designed to find the shortest path minimizing weighted sum of number of turns and number of nodes. For part 2, it was a simple `nx.all_shortest_path()` function and counting the common nodes across all of them.                      |
 | 17  | ✅      | ❌      | Part 1 was simple if-else. However, I didn't expect output to be reported as a string and wasted a lot of time debugging. Part 2 seems harder; what would be a smart logic that builds on the repetition pattern?                              |
-| 18  | ❌      | ❌      |                               |
+| 18  | ✅      | ✅      | `networkx` shortest path finder made it simple. In particular, I used `nx.shortest_path_length()`. Part 2 took approximately 6 seconds.                              |
 | 19  | ❌      | ❌      |                               |
 | 20  | ❌      | ❌      |                               |
 | 21  | ❌      | ❌      |                               |
