@@ -26,7 +26,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 16  | ✅      | ✅      | I used the logic of converting the grid into a `networkx` DiGraph, and then converting to another line graph (using `nx.line_graph()`) where weights of edges were carefully designed to find the shortest path minimizing weighted sum of number of turns and number of nodes. For part 2, it was a simple `nx.all_shortest_path()` function and counting the common nodes across all of them.                      |
 | 17  | ✅      | ❌      | Part 1 was simple if-else. However, I didn't expect output to be reported as a string and wasted a lot of time debugging. Part 2 seems harder; what would be a smart logic that builds on the repetition pattern?                              |
 | 18  | ✅      | ✅      | `networkx` shortest path finder made it simple. In particular, I used `nx.shortest_path_length()`. Part 2 took approximately 6 seconds.                              |
-| 19  | ❌      | ❌      |                               |
+| 19  | ✅      | ✅      | Recursive search for a pattern of string in a given design to find whether the design is possible (part1) and the number of ways to make the design possible (part2). Use `lru_cache` for memoization.                              |
 | 20  | ❌      | ❌      |                               |
 | 21  | ❌      | ❌      |                               |
 | 22  | ❌      | ❌      |                               |
