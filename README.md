@@ -29,7 +29,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 19  | ✅      | ✅      | Recursive search for a pattern of string in a given design to find whether the design is possible (part1) and the number of ways to make the design possible (part2). Use `lru_cache` for memoization.                              |
 | 20  | ❌      | ❌      |                               |
 | 21  | ❌      | ❌      |                               |
-| 22  | ❌      | ❌      |                               |
+| 22  | ✅      | ✅      |  Simple implementation of functions and brute force the logic. Walrus operator (`:=`) helped and so did `np.diff()`.                             |
 | 23  | ✅      | ✅      | Magically easy with `networkx` clique functions. I used `enumerate_all_cliques(G)` in forward order for the first, and reversed order for the second.                              |
 | 24  | ❌      | ❌      |                               |
 | 25  | ❌      | ❌      |                               |
