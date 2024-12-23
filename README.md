@@ -30,7 +30,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 20  | ❌      | ❌      |                               |
 | 21  | ❌      | ❌      |                               |
 | 22  | ❌      | ❌      |                               |
-| 23  | ❌      | ❌      |                               |
+| 23  | ✅      | ✅      | Magically easy with `networkx` clique functions. I used `enumerate_all_cliques(G)` in forward order for the first, and reversed order for the second.                              |
 | 24  | ❌      | ❌      |                               |
 | 25  | ❌      | ❌      |                               |
 
