@@ -32,7 +32,7 @@ This repository tracks my progress as I solve puzzles from [Advent of Code](http
 | 22  | ✅      | ✅      |  Simple implementation of functions and brute force the logic. Walrus operator (`:=`) helped and so did `np.diff()`.                             |
 | 23  | ✅      | ✅      | Magically easy with `networkx` clique functions. I used `enumerate_all_cliques(G)` in forward order for the first, and reversed order for the second.                              |
 | 24  | ✅      | ❌      | Part 1 was easily rule checking. Part 2 sounds some bit adder concept, a task for my future self to understand and solve.                              |
-| 25  | ❌      | ❌      |                               |
+| 25  | ✅      | ❌      | Part 1 was character counting. Part 2 cannot be solved until I have solved all the remaining puzzles. Well!                              |
 
 ---
 
